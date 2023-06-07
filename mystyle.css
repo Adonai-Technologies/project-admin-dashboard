@@ -81,3 +81,9 @@ main {
     margin-top: 10px;
     margin-right: 10px;
   }
+
+  .material-icons {
+    color: rgb(20, 18, 18);
+    padding: 0 7px;
+    cursor: pointer;
+  }
