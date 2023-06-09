@@ -265,9 +265,8 @@ input {
 
 .one {
     text-align: center;
-    padding-top: 90px;
-    padding-left: 40px;
-    padding-bottom: 90px;
-    padding-right: 40px ;
+    padding: 90px 40px;
+    font-weight: lighter;
+    font-size: xx-small;
 
 }
