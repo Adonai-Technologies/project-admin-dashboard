@@ -27,7 +27,6 @@
     display: block;
 }
 
-
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
     color: #f1f1f1;
@@ -51,16 +50,17 @@
     }
 }
 
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 10px;
-    background-color: #2196F3;
+    background-color: #2196f3;
     padding: 10px;
+    column-gap: 50px;
+    row-gap: 50px;
 }
 
-.grid-container>div {
+.grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid black;
     text-align: center;
@@ -72,13 +72,11 @@
     margin-bottom: 30px;
 }
 
-
 .bell-logo-name {
     display: flex;
     align-items: end;
-    margin-left: 300px;
+    margin-left: 400px;
     gap: 40px;
-
 }
 
 .logo {
@@ -99,7 +97,177 @@ input {
     margin-left: 50px;
 }
 
-
 .header2 {
     display: flex;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.buttons {
+    display: flex;
+    margin-left: 550px;
+    gap: 15px;
+    align-items: center;
+}
+
+.new {
+    padding: 5px 20px;
+    background-color: #5b69e9;
+    color: #f1f1f1;
+    border-radius: 15px;
+}
+
+.upload {
+    padding: 5px 20px;
+    background-color: #5b69e9;
+    color: #f1f1f1;
+    border-radius: 15px;
+}
+
+.share {
+    padding: 5px 20px;
+    background-color: #5b69e9;
+    color: #f1f1f1;
+    border-radius: 15px;
+}
+
+.logo-greet-name {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.hi {
+    font-size: smaller;
+    font-display: bolder;
+}
+
+.names {
+    font-size: large;
+    font-display: bolder;
+}
+
+.dashboards {
+    display: flex;
+    gap: 15px;
+}
+
+.dashboard-text {
+    color: #f1f1f1;
+    font-display: bolder;
+    margin-top: 10px;
+}
+
+.home {
+    display: flex;
+    gap: 15px;
+}
+
+.home-text {
+    color: #f1f1f1;
+    font-display: bolder;
+    margin-top: 10px;
+}
+
+.person {
+    display: flex;
+    gap: 15px;
+}
+
+.profile-text {
+    color: #f1f1f1;
+    font-display: bolder;
+    margin-top: 10px;
+}
+
+.comment {
+    display: flex;
+    gap: 15px;
+}
+
+.messages-text {
+    color: #f1f1f1;
+    font-display: bolder;
+    margin-top: 10px;
+}
+
+.history {
+    display: flex;
+    gap: 15px;
+}
+
+.history-text {
+    color: #f1f1f1;
+    font-display: bolder;
+    margin-top: 10px;
+}
+
+.task {
+    display: flex;
+    gap: 15px;
+}
+
+.task-text {
+    color: #f1f1f1;
+    font-display: bolder;
+    margin-top: 10px;
+}
+
+.group {
+    display: flex;
+    gap: 15px;
+}
+
+.group-text {
+    color: #f1f1f1;
+    font-display: bolder;
+    margin-top: 10px;
+}
+
+.settings {
+    display: flex;
+    gap: 15px;
+}
+
+.settings-text {
+    color: #f1f1f1;
+    font-display: bolder;
+    margin-top: 10px;
+}
+
+.help {
+    display: flex;
+    gap: 15px;
+}
+
+.support-text {
+    color: #f1f1f1;
+    font-display: bolder;
+    margin-top: 10px;
+}
+
+.verified-user {
+    display: flex;
+    gap: 15px;
+}
+
+.privacy-text {
+    color: #f1f1f1;
+    font-display: bolder;
+    margin-top: 10px;
+}
+
+
+.pro-annouce {
+    display: flex;
+    gap: 900px;
+    margin-top: 90px;
+}
+
+.one {
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 40px;
+    padding-bottom: 90px;
+    padding-right: 40px ;
+
 }
