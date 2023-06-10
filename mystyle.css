@@ -261,6 +261,7 @@ input {
     display: flex;
     gap: 900px;
     margin-top: 90px;
+    margin-bottom: 37px;
 }
 
 .one {
@@ -268,5 +269,68 @@ input {
     padding: 90px 40px;
     font-weight: lighter;
     font-size: xx-small;
+    border-radius: 20px;
+}
 
+.two{
+    text-align: center;
+    padding: 90px 40px;
+    font-weight: lighter;
+    font-size: xx-small;
+    border-radius: 20px
+}
+
+
+.three{
+    text-align: center;
+    padding: 90px 40px;
+    font-weight: lighter;
+    font-size: xx-small;
+    border-radius: 20px
+}
+
+.four{
+    text-align: center;
+    padding: 90px 40px;
+    font-weight: lighter;
+    font-size: xx-small;
+    border-radius: 20px
+
+}
+
+.five{
+    text-align: center;
+    padding: 90px 40px;
+    font-weight: lighter;
+    font-size: xx-small;
+    border-radius: 20px
+}
+
+.six{
+    text-align: center;
+    padding: 90px 40px;
+    font-weight: lighter;
+    font-size: xx-small;
+    border-radius: 20px
+}
+
+.seven{
+    text-align: center;
+    padding: 90px 40px;
+    font-weight: lighter;
+    font-size: xx-small;
+    border-radius: 20px
+}
+
+.eight{
+    text-align: center;
+    padding: 90px 40px;
+    font-weight: lighter;
+    font-size: xx-small;
+    border-radius: 20px
+}
+
+
+.settings-help-privacy{
+    margin-top: 50px;
 }
